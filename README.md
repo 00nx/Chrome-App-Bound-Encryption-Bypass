@@ -67,7 +67,7 @@ It launches a legitimate browser in a suspended state, injects a payload to hija
 ---
 
 
-## 🔧 Build Instructions
+## 🔧 Build Instructions 
 
 This project uses a simple, robust build script that handles all compilation and resource embedding automatically.
 
