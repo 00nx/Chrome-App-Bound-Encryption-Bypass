@@ -791,7 +791,6 @@ DWORD WINAPI DecryptionThreadWorker(LPVOID lpParam)
         }
         catch (...)
         {
-            // Failsafe if logging itself fails.
         }
     }
 
@@ -821,3 +820,4 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD reason, LPVOID lpReserved)
     }
     return TRUE;
 }
+
