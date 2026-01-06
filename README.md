@@ -61,7 +61,7 @@ It launches a legitimate browser in a suspended state, injects a payload to hija
 | Browser            | Tested Version (x64 & ARM64) |
 | ------------------ | ---------------------------- |
 | **Google Chrome**  | 143.0.7499.170               |
-| **Brave**          | 1.80.124 (138.0.7204.168)    |
+| **Brave**          | 143.0.3650.96   |
 | **Microsoft Edge** | 139.0.3405.52                |
 
 ---
