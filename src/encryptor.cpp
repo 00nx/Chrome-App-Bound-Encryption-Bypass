@@ -41,7 +41,6 @@ int main(int argc, char *argv[])
     std::vector<uint8_t> buffer((std::istreambuf_iterator<char>(inFile)), std::istreambuf_iterator<char>());
     inFile.close();
 
-    // Encrypt the buffer in-place using our new function
     chacha20_xor(aKey, aNonce, buffer.data(), buffer.size(), 0);
 
     std::ofstream outFile(argv[2], std::ios::binary);
@@ -56,4 +55,5 @@ int main(int argc, char *argv[])
 
     std::cout << "Successfully ChaCha20-encrypted " << argv[1] << " to " << argv[2] << std::endl;
     return 0;
+
 }
