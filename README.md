@@ -6,7 +6,9 @@
 ![Languages](https://img.shields.io/badge/code-C%2B%2B%20%7C%20ASM-9cf)
 
 ---
-
+> [!CAUTION]
+> this specific version has some issues as of now, will be fixing soon with new updates
+> 
 ## 📌 Overview
 
 This is a **fork** of [@xaitax’s original Chrome App-Bound Encryption Decryption project](https://github.com/xaitax/Chrome-App-Bound-Encryption-Decryption).  
@@ -198,5 +200,7 @@ Attribution to the original author is maintained.
 > **This is not a full-featured infostealer or a guaranteed EDR evasion tool.**  
 > While it uses advanced techniques, its sole purpose is to demonstrate and analyze the ABE mechanism—not to provide operational stealth.  
 > Use only in compliance with applicable legal and ethical guidelines.
+>
+
 
 
